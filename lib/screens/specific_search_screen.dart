@@ -112,7 +112,10 @@ class _SpecificSearchScreenState extends State<SpecificSearchScreen> {
                 Provider.of<Books>(context, listen: false)
                     .toggleTotalItemsCalculation(false);
 
-                return BooksGrid(routeName: SpecificSearchScreen.routeName);
+                return BooksGrid(
+                  routeName: SpecificSearchScreen.routeName,
+                  $routeName: '',
+                );
               }
             },
           ),

@@ -8,8 +8,11 @@ class Bookmark extends StatefulWidget {
   final String bookId;
   final Book book;
 
-  Bookmark(this.bookId, this.book,
-      (String bookId, Book book), {required String bookId, required Book book} { book;};
+  Bookmark(
+      this.bookId,
+      this.book,
+      $(String bookId, Book book,
+          {required String $bookId, required Book $book}));
 
   @override
   _BookmarkState createState() => _BookmarkState();

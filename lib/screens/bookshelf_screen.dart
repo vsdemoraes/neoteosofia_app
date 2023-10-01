@@ -46,7 +46,7 @@ class _BookShelfScreenState extends State<BookShelfScreen> {
                             mainAxisAlignment: MainAxisAlignment.start,
                             children: <Widget>[
                               Text(
-                                'Bookshelf',
+                                'Estante',
                                 textAlign: TextAlign.end,
                                 style: GoogleFonts.montserrat(
                                     textStyle: TextStyle(
